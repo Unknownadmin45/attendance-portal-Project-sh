@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "employeeId": "EMP001",
+      "firstName": "John",
+      "lastName": "Admin",
+      "email": "admin@scalinova.com",
+      "password": "admin123",
+      "phone": "+1234567890",
+      "role": "admin",
+      "department": "IT",
+      "designation": "System Administrator",
+      "joiningDate": "2024-01-15",
+      "status": "active",
+      "reportingManager": "CEO",
+      "address": {
+        "street": "123 Corporate Blvd",
+        "city": "Business City",
+        "state": "BC",
+        "zipCode": "12345"
+      },
+      "dateOfBirth": "1985-06-15",
+      "employmentType": "Full-time",
+      "salary": 75000
+    },
+    {
+      "id": "2",
+      "employeeId": "EMP002",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane@scalinova.com",
+      "password": "emp123",
+      "phone": "+1234567891",
+      "role": "employee",
+      "department": "HR",
+      "designation": "HR Executive",
+      "joiningDate": "2024-02-01",
+      "status": "active",
+      "reportingManager": "John Admin",
+      "address": {
+        "street": "456 Employee St",
+        "city": "Work City",
+        "state": "WC",
+        "zipCode": "12346"
+      },
+      "dateOfBirth": "1990-03-20",
+      "employmentType": "Full-time",
+      "salary": 55000
+    },
+    {
+      "id": "3",
+      "employeeId": "EMP003",
+      "firstName": "Mike",
+      "lastName": "Johnson",
+      "email": "mike@scalinova.com",
+      "password": "emp123",
+      "phone": "+1234567892",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "Software Developer",
+      "joiningDate": "2024-03-15",
+      "status": "active",
+      "reportingManager": "John Admin",
+      "address": {
+        "street": "789 Developer Ave",
+        "city": "Tech City",
+        "state": "TC",
+        "zipCode": "12347"
+      },
+      "dateOfBirth": "1988-11-10",
+      "employmentType": "Full-time",
+      "salary": 70000
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1",
+      "userId": "2",
+      "date": "2025-07-15",
+      "checkIn": "09:00:00",
+      "checkOut": "17:30:00",
+      "totalHours": 8.5,
+      "status": "present",
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "notes": "Regular working day"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "date": "2025-07-15",
+      "checkIn": "09:15:00",
+      "checkOut": "17:45:00",
+      "totalHours": 8.5,
+      "status": "present",
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "notes": "Slightly late arrival"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "1",
+      "userId": "2",
+      "leaveType": "Annual Leave",
+      "fromDate": "2025-07-20",
+      "toDate": "2025-07-22",
+      "reason": "Family vacation",
+      "status": "pending",
+      "appliedDate": "2025-07-10T10:00:00Z",
+      "approvedBy": null,
+      "totalDays": 3
+    }
+  ],
+  "holidays": [
+    {
+      "id": "1",
+      "date": "2025-01-01",
+      "name": "New Year Day",
+      "type": "national"
+    },
+    {
+      "id": "2",
+      "date": "2025-07-04",
+      "name": "Independence Day",
+      "type": "national"
+    },
+    {
+      "id": "3",
+      "date": "2025-12-25",
+      "name": "Christmas Day",
+      "type": "national"
+    },
+    {
+      "id": "4",
+      "date": "2025-11-28",
+      "name": "Thanksgiving Day",
+      "type": "national"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "IT",
+      "head": "John Admin",
+      "employeeCount": 5
+    },
+    {
+      "id": "2",
+      "name": "HR",
+      "head": "Jane Smith",
+      "employeeCount": 3
+    },
+    {
+      "id": "3",
+      "name": "Engineering",
+      "head": "Mike Johnson",
+      "employeeCount": 8
+    },
+    {
+      "id": "4",
+      "name": "Finance",
+      "head": "Sarah Wilson",
+      "employeeCount": 4
+    }
+  ]
+}
